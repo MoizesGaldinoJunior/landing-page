@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$colorprimary: #1e1e1e;
+$colortext: #f2f2f2;
+$colorbtn: #3F6CA6;
+
+$font-text: 'Azeret Mono', monospace;
+
+
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body{
+  background-color: $colorprimary;
+  h1{
+    font-family: $font-text;
+    font-weight: 400;
+    font-size: 2em;
+    color: $colortext;
+  }
+  
+  h2{
+    font-family: $font-text;
+    font-size: 1.5em;
+    color: $colortext;
+  }
+  p{
+    font-family: $font-text;
+    font-weight: 100;
+    color: $colortext;
+    font-size: 0.8em;
+  }
+
+  a{
+    color: $colortext;
+    font-size: 0.8em;
+    text-decoration: none;
+    font-family: $font-text;
+    font-weight: 200;
+  }
+}
